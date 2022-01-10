@@ -1,10 +1,10 @@
 all: graph
 
 graph: main.o nodes.o edges.o algo.o 
-	gcc -g -Wall main.o nodes.o edges.o algo.o -o hw4
+	gcc -g -Wall main.o nodes.o edges.o algo.o -o graph
 
 clean:
-	rm *.o hw4
+	rm *.o graph
 
 .c.o:
 	gcc -c -Wall $<
