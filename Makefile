@@ -1,6 +1,6 @@
-all: hw4
+all: graph
 
-hw4: main.o nodes.o edges.o algo.o 
+graph: main.o nodes.o edges.o algo.o 
 	gcc -g -Wall main.o nodes.o edges.o algo.o -o hw4
 
 clean:
