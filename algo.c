@@ -147,6 +147,6 @@ void short_path(pnode head, int *path_nodes, int count)
 {
     int used[10] = {};
     permut( 0, count, count, used, head, path_nodes );
-    printf( "TSP shortest path: %d\n", short_dist_path);
+    printf( "TSP shortest path: %d \n", short_dist_path);
     short_dist_path = -1;
 }

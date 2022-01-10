@@ -94,7 +94,7 @@ int main()
         token = strtok(NULL, " ");
         ind = atoi(token);
         dest = find_node(head, ind);
-        printf("Dijsktra shortest path: %d\n", dest->weight);
+        printf("Dijsktra shortest path: %d \n", dest->weight);
         token = strtok(NULL, " ");
     }
     if(token != NULL && *token=='T')
